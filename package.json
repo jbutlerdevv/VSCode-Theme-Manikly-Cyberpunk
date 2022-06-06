@@ -1,0 +1,21 @@
+{
+    "name": "manikly-cyberpunk",
+    "displayName": "Manikly Cyberpunk",
+    "description": "A cyberpunk like color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Manikly Cyberpunk",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Manikly Cyberpunk-color-theme.json"
+            }
+        ]
+    }
+}
