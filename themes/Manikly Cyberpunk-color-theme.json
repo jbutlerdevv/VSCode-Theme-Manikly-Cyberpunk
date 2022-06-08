@@ -1,10 +1,26 @@
 {
 	"name": "Manikly Cyberpunk",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#000000",
 		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"tab.activeBackground": "#112663",
+		"tab.inactiveBackground": "#000000",
+		"tab.hoverBackground": "#007acc",
+		"tab.border": "#5018fa7c",
+		"statusBar.background": "#5218fa",
+		"activityBar.foreground": "#5218fa",
+		"activityBar.background": "#000000",
+		"activityBarBadge.background": "#5218fa",
+		"activityBar.border": "#5018fa7c",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"sideBar.background": "#000000",
+		"sideBarSectionHeader.background": "#000000",
+		"sideBar.border": "#5018fa7c",
+		"sideBarSectionHeader.border": "#5018fa7c",
+		"titleBar.activeBackground": "#112663",
+		"titleBar.activeForeground": "#ffffff",
+		"titleBar.inactiveBackground": "#000000",
+		"editorGroupHeader.tabsBackground": "#000000"
 	},
 	"tokenColors": [
 		{
@@ -15,7 +31,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#546E7A"
+				"foreground": "#436175"
 			}
 		},
 		{
@@ -86,7 +102,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#f07178"
+				"foreground": "#5218FA"
 			}
 		},
 		{
