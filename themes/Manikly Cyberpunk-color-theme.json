@@ -88,10 +88,11 @@
 				"punctuation.definition.tag.end.html",
 				"punctuation.section.embedded",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				// "string.quoted.double.html"
 			],
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#86e1fc"
 			}
 		},
 		{
@@ -156,7 +157,7 @@
 		{
 			"name": "String, Symbols, Inherited Class, Markup Heading",
 			"scope": [
-				"string",
+				// "string",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -254,7 +255,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#CC99FF"
 			}
 		},
 		{
@@ -639,6 +640,24 @@
 			"settings": {
 				"foreground": "#EEFFFF"
 			}
-		}
+		},
+		{
+			"name": "Strings/Values",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#00ffb3"
+			}
+		},
+		{
+			"name": "HTML Random 1",
+			"scope": [
+				"text.html.derivative"
+			],
+			"settings": {
+				"foreground": "#B9DEE9"
+			}
+		},
 	]
 }
