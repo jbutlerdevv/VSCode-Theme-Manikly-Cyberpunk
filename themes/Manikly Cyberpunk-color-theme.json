@@ -255,7 +255,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#CC99FF"
+				"foreground": "#DF00FF"
 			}
 		},
 		{
@@ -370,7 +370,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#DF00FF"
 			}
 		},
 		{
@@ -379,7 +379,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#183EFA"
 			}
 		},
 		{
@@ -388,7 +388,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#006361"
 			}
 		},
 		{
@@ -642,9 +642,13 @@
 			}
 		},
 		{
-			"name": "Strings/Values",
+			"name": "Random",
 			"scope": [
-				"string"
+				"string",
+				"meta.brace.round.js",
+				"source.js",
+				"meta.function.js",
+				"punctuation.definition.parameters.begin.js"
 			],
 			"settings": {
 				"foreground": "#00ffb3"
